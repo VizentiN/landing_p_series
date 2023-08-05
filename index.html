@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FavSeries - Disney</title>
+    <link rel="stylesheet" href="dist/css/main.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header__container">
+                <li class="header__links__item">
+                    <a href="#" class="button button__dark">Home</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="hero__content">
+            <div class="hero__content__branding">
+                <img src="src/images/disneyplus.svg" alt="Disney+">
+            </div>
+            <h3 class="title--small">
+                Here are my favorite shows and movies since I started using Disney+
+            </h3>
+            <p class="text">
+                Catch all the excitement, adventure, and heartfelt moments right here on Disney+. Subscribe now to unlock the world of FavSeries and enjoy unlimited access to this masterpiece of storytelling. Binge-watch to your heart's content or savor each episode at your pace – the choice is yours.    
+            </p>
+            <p class="text">
+                Embark on an unforgettable journey with FavSeries. Let your imagination run wild as you explore a world filled with magic, friendship, and extraordinary tales. Join us on this unforgettable adventure today!
+            </p>
+        </div>
+    </section>
+    <section class="shows">
+        <nav class="shows__tabs">
+            <button data-tab-button="em_breve" class="shows__tabs__button shows__tabs__button--is-active">
+                Favorites
+            </button>
+            <button data-tab-button="populares" class="shows__tabs__button">
+                Last Watched
+            </button>
+
+        </nav>
+        <ul data-tab-id="em_breve" class="shows__list  shows__list--is-active">
+            <li class="shows__list__item">
+                <img src="./dist/images/em_breve/spidey.jpg" alt="Spidey">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/em_breve/desencantada.jpg" alt="desencantada">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/em_breve/lobisomem.jpg" alt="Werewolf">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/em_breve/sem_limites.jpg" alt="No limits">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/em_breve/the_santa_clauses.jpg" alt="Santa Claus">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/em_breve/willow.jpg" alt="Willow">
+            </li>
+        </ul>
+        <ul data-tab-id="populares" class="shows__list">
+            <li class="shows__list__item">
+                <img src="./dist/images/mais_populares/bluey.jpg" alt="bluey">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/mais_populares/cavaleira_da_lua.jpg" alt="cavaleira_da_lua">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/mais_populares/o_incrivel_dr_pol.jpg" alt="o_incrivel_dr_pol">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/mais_populares/obi_wan.jpg" alt="obi_wan">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/mais_populares/red.jpg" alt="red">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/mais_populares/tudo_igual_sqn.jpg" alt="tudo_igual_sqn">
+            </li>
+        </ul>
+    </section>
+
+
+    <footer class="footer">
+        <div class="footer__container">
+            <p class="text--small">
+                © 2023 Disney and its related entities. All Rights Reserved.
+            </p>
+        </div>
+    </footer>
+
+    <script src="./dist/js/main.js"></script>
+</body>
+
+</html>
